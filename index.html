@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#071a16">
+<meta name="description" content="OneXPlanet connects technology, people, and nature to help build a more sustainable future. Discover Nature. Make A Difference.">
+<title>OneXPlanet — Discover Nature. Make A Difference.</title>
+<style>
+:root{--bg:#071a16;--bg2:#0d2720;--green:#7fe0a1;--green2:#b9f2c9;--ink:#14251e;--muted:#607269;--paper:#f5f8f4;--white:#fff;--line:#dce7de;--blue:#80c8ff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;color:var(--ink);background:var(--paper);line-height:1.6}a{color:inherit;text-decoration:none}button,input,textarea,select{font:inherit}.wrap{width:min(1160px,calc(100% - 40px));margin:auto}.nav{position:sticky;top:0;z-index:20;background:rgba(5,22,18,.94);backdrop-filter:blur(14px);border-bottom:1px solid rgba(255,255,255,.1);color:white}.nav-inner{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:76px}.brand{display:flex;align-items:center;gap:10px;font-weight:800;letter-spacing:-.04em;font-size:1.25rem}.logo{width:38px;height:38px;border:1px solid #80e0a2;border-radius:50%;display:grid;place-items:center;color:var(--green);font-weight:900;font-size:1.2rem;box-shadow:inset 0 0 18px #55c98230}.links{display:flex;align-items:center;gap:21px;font-size:.88rem;color:#d6e4db}.links a:hover{color:var(--green)}.nav-cta,.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:999px;padding:12px 19px;font-weight:750;cursor:pointer;transition:transform .2s,background .2s}.nav-cta,.btn-primary{background:var(--green);color:#092017}.btn:hover,.nav-cta:hover{transform:translateY(-2px)}.menu-btn{display:none;background:transparent;color:white;border:1px solid #466257;border-radius:10px;padding:8px 12px}.hero{position:relative;overflow:hidden;background:radial-gradient(ellipse at 78% 40%,#174b38 0%,transparent 34%),radial-gradient(ellipse at 20% 10%,#16362e 0%,transparent 40%),linear-gradient(135deg,#061511,#0b211c 58%,#071712);color:white;padding:95px 0 90px;min-height:610px}.hero:before{content:"";position:absolute;width:530px;height:530px;border-radius:50%;right:4%;top:55px;border:1px solid #79d99d50;box-shadow:0 0 0 25px #72d99a08,0 0 0 65px #72d99a06,0 0 80px #47ba7b22}.hero:after{content:"";position:absolute;width:480px;height:480px;border-radius:50%;right:6%;top:80px;background:radial-gradient(circle at 35% 28%,#b6edbd 0%,#438f68 15%,#1d6148 35%,#0b2c24 63%,#061611 75%);box-shadow:inset -25px -15px 50px #020b08,0 0 80px #58cf8b20;opacity:.8}.hero-grid{position:relative;z-index:2;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:50px}.eyebrow{color:var(--green);text-transform:uppercase;letter-spacing:.17em;font-size:.75rem;font-weight:800}.hero h1{font-size:clamp(3rem,6.4vw,5.6rem);line-height:.98;letter-spacing:-.07em;margin:19px 0 25px;max-width:720px}.hero h1 span{color:var(--green)}.hero p{font-size:1.12rem;line-height:1.8;color:#d0ded5;max-width:590px}.hero-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:30px}.btn-secondary{border:1px solid #678477;background:#ffffff09;color:white}.hero-note{font-size:.8rem!important;color:#9eb7a7!important;margin-top:18px}.hero-art{position:relative;z-index:3;min-height:440px;display:flex;align-items:center;justify-content:center}.orbit{position:absolute;width:440px;height:160px;border:1px solid #8ce3ae7a;border-radius:50%;transform:rotate(-28deg)}.orbit.two{transform:rotate(35deg);width:480px;height:190px;border-color:#6ab9e76b}.planet-label{position:absolute;bottom:24px;right:10px;border:1px solid #5b8a70;background:#0b211cbf;padding:12px 16px;border-radius:14px;color:#d8f4df;font-size:.82rem;backdrop-filter:blur(10px)}.section{padding:88px 0}.section-head{max-width:700px;margin-bottom:38px}.section-head h2{font-size:clamp(2rem,4vw,3.1rem);line-height:1.1;letter-spacing:-.05em;margin:10px 0 15px}.section-head p{color:var(--muted);font-size:1.05rem}.tag{display:inline-block;border:1px solid #b8dfc4;background:#e7f8eb;color:#20643b;padding:5px 10px;border-radius:999px;font-size:.72rem;text-transform:uppercase;letter-spacing:.08em;font-weight:800}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.card{background:white;border:1px solid var(--line);border-radius:22px;padding:25px;min-height:220px;box-shadow:0 10px 30px #173d1d06}.card-icon{width:48px;height:48px;border-radius:15px;display:grid;place-items:center;background:#e5f7e9;font-size:1.45rem;margin-bottom:20px}.card h3{margin:0 0 8px;font-size:1.2rem;letter-spacing:-.025em}.card p{color:var(--muted);margin:0 0 15px;font-size:.95rem}.small-link{font-weight:800;color:#236b40;font-size:.9rem}.status{display:inline-block;font-size:.68rem;letter-spacing:.04em;text-transform:uppercase;font-weight:800;color:#496a56;background:#eef5ef;border:1px solid #d7e7da;padding:4px 8px;border-radius:999px;margin-bottom:12px}.mission{background:#eaf3eb}.mission-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:55px;align-items:center}.mission-visual{min-height:370px;border-radius:26px;background:radial-gradient(circle at 50% 40%,#67b980 0,#236346 28%,#0a281e 62%,#071811 100%);display:grid;place-items:center;color:#e2ffe9;position:relative;overflow:hidden}.mission-visual:before,.mission-visual:after{content:"";position:absolute;border:1px solid #b5f5c46b;border-radius:50%;width:330px;height:140px;transform:rotate(-25deg)}.mission-visual:after{transform:rotate(38deg);width:380px;height:170px}.mission-symbol{font-size:5rem;z-index:1;text-shadow:0 0 40px #8ce7a8}.mission-copy h2{font-size:clamp(2rem,4vw,3.2rem);line-height:1.1;letter-spacing:-.05em;margin:12px 0}.mission-copy p{color:#50655a}.stats{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-top:25px}.stat{border-top:2px solid #8bc99b;padding-top:12px}.stat strong{display:block;font-size:1.05rem}.stat span{font-size:.82rem;color:var(--muted)}.learn{background:white}.article-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}.article{border:1px solid var(--line);border-radius:20px;overflow:hidden;background:white}.article-cover{height:145px;display:grid;place-items:center;font-size:3rem;background:linear-gradient(135deg,#d8f3df,#a7d9b3)}.article:nth-child(2) .article-cover{background:linear-gradient(135deg,#d6ecff,#9fc9e7)}.article:nth-child(3) .article-cover{background:linear-gradient(135deg,#e5e5c6,#c4d9a4)}.article-body{padding:20px}.article-body small{color:#398054;font-weight:800}.article-body h3{font-size:1.1rem;line-height:1.35;margin:8px 0}.article-body p{font-size:.9rem;color:var(--muted);margin:0}.article-body .draft{font-size:.72rem;color:#7c6a3a;margin-top:12px;display:block}.feature-band{background:linear-gradient(120deg,#0b241b,#102f25);color:white;padding:55px;border-radius:28px;display:flex;align-items:center;justify-content:space-between;gap:35px}.feature-band h2{font-size:clamp(1.8rem,3.5vw,2.8rem);letter-spacing:-.04em;line-height:1.12;margin:10px 0}.feature-band p{color:#c1d5c7;max-width:650px}.feature-band .btn{white-space:nowrap}.form-section{background:#eaf3eb}.form-grid{display:grid;grid-template-columns:.8fr 1.2fr;gap:45px}.form-panel{background:white;border:1px solid var(--line);padding:28px;border-radius:22px}.field{display:flex;flex-direction:column;gap:7px;margin-bottom:16px}.field label{font-size:.85rem;font-weight:750}.field input,.field textarea,.field select{width:100%;padding:12px 14px;border:1px solid #cddbd0;border-radius:12px;background:#fbfdfb;color:var(--ink)}.field textarea{min-height:100px;resize:vertical}.form-note{font-size:.78rem;color:var(--muted)}.success{display:none;background:#e4f8e8;border:1px solid #a9ddb5;color:#1c6336;border-radius:12px;padding:12px;margin-top:12px}.footer{background:#061510;color:#d9e7de;padding:55px 0 25px}.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr;gap:35px}.footer p{color:#9db3a4;max-width:380px;font-size:.92rem}.footer h4{margin-top:0;color:#fff}.footer-links{display:grid;gap:9px;color:#b5c8ba;font-size:.9rem}.footer-links a:hover{color:var(--green)}.foot-bottom{display:flex;justify-content:space-between;gap:15px;border-top:1px solid #263b30;margin-top:35px;padding-top:20px;color:#8ea395;font-size:.8rem}.notice{background:#fff7dc;border:1px solid #eadca7;border-radius:12px;padding:13px 15px;color:#65531e;font-size:.83rem;margin-top:20px}
+@media(max-width:950px){.links{gap:12px;font-size:.8rem}.nav-cta{display:none}.hero-grid{grid-template-columns:1fr}.hero-art{position:absolute;right:-110px;top:100px;opacity:.35;width:400px;pointer-events:none}.hero-copy{position:relative;z-index:4}.hero h1{max-width:680px}.cards,.article-grid{grid-template-columns:repeat(2,1fr)}.mission-grid,.form-grid{grid-template-columns:1fr}.mission-visual{min-height:280px}.feature-band{padding:35px;flex-direction:column;align-items:flex-start}.footer-grid{grid-template-columns:1fr 1fr}}
+@media(max-width:680px){.wrap{width:min(100% - 30px,1160px)}.nav-inner{min-height:68px}.menu-btn{display:block}.links{display:none;position:absolute;top:68px;left:0;right:0;background:#071a16;padding:18px 22px 24px;flex-direction:column;align-items:flex-start;border-bottom:1px solid #284337}.links.open{display:flex}.hero{padding:76px 0 70px;min-height:560px}.hero:before{right:-220px;top:110px}.hero:after{right:-190px;top:135px}.hero-art{right:-190px;top:110px}.hero h1{font-size:clamp(2.9rem,14vw,4.3rem)}.hero p{font-size:1rem}.section{padding:65px 0}.cards,.article-grid{grid-template-columns:1fr}.card{min-height:0}.stats{grid-template-columns:1fr}.feature-band{padding:28px 23px}.form-panel{padding:20px}.footer-grid{grid-template-columns:1fr}.foot-bottom{flex-direction:column}.mission-visual{min-height:240px}}
+</style>
+</head>
+<body>
+<header class="nav">
+  <div class="wrap nav-inner">
+    <a class="brand" href="#home" aria-label="OneXPlanet home"><span class="logo">X</span><span>OneXPlanet</span></a>
+    <button class="menu-btn" id="menuBtn" aria-expanded="false" aria-controls="navLinks">Menu ☰</button>
+    <nav class="links" id="navLinks" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#ai">AI Nature Lab</a><a href="#conservation">Conservation</a><a href="#planet-data">Planet Data</a><a href="#learn">Learn</a><a href="#store">Eco Store</a><a href="#community">Community</a><a href="#about">About</a>
+    </nav>
+    <a class="nav-cta" href="#community">Stay connected ↗</a>
+  </div>
+</header>
+<main>
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div class="hero-copy">
+      <div class="eyebrow">Technology • Nature • Collective action</div>
+      <h1>One planet.<br><span>One future.</span></h1>
+      <p>We bring technology, people, and nature closer together—making environmental knowledge easier to explore and meaningful action easier to take.</p>
+      <div class="hero-actions"><a class="btn btn-primary" href="#about">Discover our mission <span>↗</span></a><a class="btn btn-secondary" href="#learn">Explore the Learn hub</a></div>
+      <p class="hero-note">Discover Nature. Make A Difference.</p>
+    </div>
+    <div class="hero-art" aria-hidden="true"><div class="orbit"></div><div class="orbit two"></div><div class="planet-label">A global vision for a greener future 🌱</div></div>
+  </div>
+</section>
+<section class="section" id="about">
+ <div class="wrap">
+  <div class="section-head"><span class="tag">Why OneXPlanet</span><h2>Curiosity can become a force for good.</h2><p>Our planet is full of connected systems worth understanding and protecting. OneXPlanet aims to make that knowledge more accessible through thoughtful technology, education, and community.</p></div>
+  <div class="cards">
+   <article class="card"><div class="card-icon">🌍</div><h3>Understand our planet</h3><p>Explore environmental topics, nature guides, and planet information in a clear, approachable way.</p></article>
+   <article class="card"><div class="card-icon">🌿</div><h3>Protect biodiversity</h3><p>Learn about trees, plants, native species, and the importance of healthy ecosystems.</p></article>
+   <article class="card"><div class="card-icon">💡</div><h3>Turn learning into action</h3><p>Discover practical ideas that can help individuals and communities make informed choices.</p></article>
+  </div>
+ </div>
+</section>
+<section class="section mission" id="conservation">
+ <div class="wrap mission-grid">
+  <div class="mission-visual" aria-hidden="true"><span class="mission-symbol">✳</span></div>
+  <div class="mission-copy"><span class="tag">Our mission</span><h2>One planet. One future. One responsibility.</h2><p>We believe technology should bring humanity closer to nature. Our mission is to empower people to understand our planet, protect biodiversity, conserve trees and plants, and make more informed environmental decisions.</p><p>By bringing together AI-powered nature tools, environmental education, accessible planet data, and a global community, we aim to turn awareness into meaningful action for a healthier future.</p>
+   <div class="stats"><div class="stat"><strong>Learn</strong><span>Build environmental understanding</span></div><div class="stat"><strong>Discover</strong><span>Explore nature with curiosity</span></div><div class="stat"><strong>Act</strong><span>Make informed choices</span></div></div>
+  </div>
+ </div>
+</section>
+<section class="section" id="ai">
+ <div class="wrap">
+  <div class="section-head"><span class="tag">AI Nature Lab</span><h2>Technology with nature in mind.</h2><p>We plan to develop accessible digital tools that help people explore the natural world responsibly.</p></div>
+  <div class="cards">
+   <article class="card"><div class="status">In development</div><div class="card-icon">🌱</div><h3>Plant identification</h3><p>A future tool to help users explore possible plant identities, with reminders to verify important findings.</p></article>
+   <article class="card"><div class="status">In development</div><div class="card-icon">🪴</div><h3>Plant-care guidance</h3><p>Practical care information shaped around plant needs, local conditions, and responsible sources.</p></article>
+   <article class="card"><div class="status">Coming soon</div><div class="card-icon">🤖</div><h3>OneXPlanet AI</h3><p>A planned nature assistant for environmental questions, learning, and discovering trusted resources.</p></article>
+  </div>
+ </div>
+</section>
+<section class="section" id="planet-data" style="background:#fff">
+ <div class="wrap">
+  <div class="section-head"><span class="tag">Planet Data</span><h2>See the bigger picture.</h2><p>Environmental data can help us ask better questions about our changing world. This section will grow as reliable data sources and tools are integrated.</p></div>
+  <div class="cards">
+   <article class="card"><div class="card-icon">🗺️</div><h3>Environmental maps</h3><p>Planned map-based views of selected environmental information.</p><span class="status">Planned</span></article>
+   <article class="card"><div class="card-icon">☁️</div><h3>Weather & climate context</h3><p>Future links to trustworthy weather and environmental datasets.</p><span class="status">Planned</span></article>
+   <article class="card"><div class="card-icon">📊</div><h3>Explore the evidence</h3><p>Learn how to interpret sources, trends, and limitations in environmental data.</p><span class="status">In development</span></article>
+  </div>
+ </div>
+</section>
+<section class="section learn" id="learn">
+ <div class="wrap">
+  <div class="section-head"><span class="tag">The Learn hub</span><h2>Small discoveries. Bigger understanding.</h2><p>Starter article ideas for our future environmental learning library. These are editorial placeholders, not published research.</p></div>
+  <div class="article-grid">
+   <article class="article"><div class="article-cover">🌳</div><div class="article-body"><small>TREE CONSERVATION</small><h3>Why every tree matters</h3><p>Explore the roles trees play in habitats, shade, soils, and local ecosystems.</p><span class="draft">Draft idea · Fact-check before publishing</span></div></article>
+   <article class="article"><div class="article-cover">🧠</div><div class="article-body"><small>AI & TECHNOLOGY</small><h3>How AI could help protect nature</h3><p>A beginner-friendly look at potential uses—and the limits—of AI in conservation.</p><span class="draft">Draft idea · Fact-check before publishing</span></div></article>
+   <article class="article"><div class="article-cover">🍃</div><div class="article-body"><small>BIODIVERSITY</small><h3>Native and invasive plants</h3><p>Understand why a plant's origin and local ecosystem context can matter.</p><span class="draft">Draft idea · Fact-check before publishing</span></div></article>
+  </div>
+ </div>
+</section>
+<section class="section" id="store">
+ <div class="wrap"><div class="feature-band"><div><span class="eyebrow">Eco Store · Future project</span><h2>Thoughtful products, with responsibility in mind.</h2><p>We hope to explore nature-inspired products and reusable everyday items. Product sourcing, environmental claims, pricing, and availability will be reviewed before anything is offered for sale.</p><span class="status">Not open for purchases</span></div><a class="btn btn-primary" href="#community">Share your interest ↗</a></div></div>
+</section>
+<section class="section" id="community" style="background:#fff">
+ <div class="wrap">
+  <div class="section-head"><span class="tag">Community</span><h2>A better future is a shared effort.</h2><p>We're exploring ways to connect learners, schools, communities, and conservation-minded organizations. Tell us what you would like to see.</p></div>
+  <div class="cards">
+   <article class="card"><div class="card-icon">🎓</div><h3>For learners</h3><p>Suggest guides, explainers, quizzes, and topics you'd like to understand.</p></article>
+   <article class="card"><div class="card-icon">🤝</div><h3>For communities</h3><p>Help shape ideas for responsible, locally informed environmental action.</p></article>
+   <article class="card"><div class="card-icon">📬</div><h3>Stay connected</h3><p>Share feedback or express interest in future OneXPlanet features below.</p></article>
+  </div>
+ </div>
+</section>
+<section class="section form-section" id="contact">
+ <div class="wrap form-grid">
+  <div><span class="tag">Get involved</span><h2 style="font-size:clamp(2rem,4vw,3rem);letter-spacing:-.05em;line-height:1.1">Help shape what comes next.</h2><p style="color:var(--muted)">This demo form runs only in your browser. It does not send or store submissions. Connect a secure form service before collecting real visitor information.</p><div class="notice"><strong>Privacy-first prototype:</strong> don't enter real personal information here. Newsletter subscriptions and data collection are not connected yet.</div></div>
+  <form class="form-panel" id="feedbackForm">
+   <div class="field"><label for="topic">What are you interested in?</label><select id="topic" required><option value="">Choose an area</option><option>OneXPlanet AI</option><option>Tree conservation & biodiversity</option><option>Planet Data</option><option>Environmental learning</option><option>Eco Store</option><option>Community initiatives</option></select></div>
+   <div class="field"><label for="message">Your idea or feedback</label><textarea id="message" placeholder="What would you like OneXPlanet to help people do?" required></textarea></div>
+   <div class="field"><label for="email">Email (optional — demo only)</label><input type="email" id="email" placeholder="you@example.com" autocomplete="email"></div>
+   <label style="display:flex;gap:10px;align-items:flex-start;font-size:.83rem;color:var(--muted);margin-bottom:18px"><input type="checkbox" id="consent" style="margin-top:5px"> I understand this is a local demo and no submission will be sent or saved.</label>
+   <button class="btn btn-primary" type="submit">Preview submission ↗</button>
+   <div class="success" id="successMsg" role="status">Demo complete! Nothing was sent or saved. Connect a secure form backend to receive real feedback.</div>
+  </form>
+ </div>
+</section>
+</main>
+<footer class="footer">
+ <div class="wrap">
+  <div class="footer-grid">
+   <div><a class="brand" href="#home"><span class="logo">X</span><span>OneXPlanet</span></a><p>Connecting technology, people, and nature to help build a more sustainable future.</p><strong style="color:var(--green2)">Discover Nature. Make A Difference.</strong></div>
+   <div><h4>Explore</h4><div class="footer-links"><a href="#ai">AI Nature Lab</a><a href="#conservation">Conservation</a><a href="#planet-data">Planet Data</a><a href="#learn">Learn</a></div></div>
+   <div><h4>OneXPlanet</h4><div class="footer-links"><a href="#about">About our mission</a><a href="#store">Eco Store — coming later</a><a href="#community">Community</a><a href="#contact">Contact & feedback</a></div></div>
+  </div>
+  <div class="foot-bottom"><span>© <span id="year"></span> OneXPlanet · Early-stage prototype</span><span>Built to learn, explore, and improve—one step at a time.</span></div>
+ </div>
+</footer>
+<script>
+const menuBtn=document.getElementById('menuBtn');
+const navLinks=document.getElementById('navLinks');
+menuBtn.addEventListener('click',()=>{const open=navLinks.classList.toggle('open');menuBtn.setAttribute('aria-expanded',String(open));});
+navLinks.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{navLinks.classList.remove('open');menuBtn.setAttribute('aria-expanded','false');}));
+document.getElementById('year').textContent=new Date().getFullYear();
+document.getElementById('feedbackForm').addEventListener('submit',e=>{e.preventDefault();const consent=document.getElementById('consent');const msg=document.getElementById('successMsg');if(!consent.checked){msg.style.display='block';msg.textContent='Please check the demo notice. No information will be sent or saved.';return;}msg.style.display='block';});
+</script>
+</body>
+</html>
